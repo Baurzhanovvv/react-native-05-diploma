@@ -1,6 +1,7 @@
 import { useLocalSearchParams } from "expo-router";
 import { useEffect, useState } from "react";
-import { ActivityIndicator, SafeAreaView, Text } from "react-native";
+import { ActivityIndicator, Text } from "react-native";
+import { SafeAreaView } from "react-native-safe-area-context";
 import { Channel as ChannelType } from 'stream-chat'
 import { Channel, MessageInput, MessageList, useChatContext } from "stream-chat-expo";
 
