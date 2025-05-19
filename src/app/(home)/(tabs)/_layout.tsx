@@ -14,8 +14,6 @@ export default function TabsNavigator() {
             tabBarIcon: ({color, size}) => (
                 <FontAwesome5 name="user-alt" size={size} color={color} />
             )
-        }} 
-            
-        />
+        }} />
     </Tabs>
 }
